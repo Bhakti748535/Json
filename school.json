@@ -1,0 +1,9 @@
+{
+    "School": {
+        "students": [
+            { "class1": ["john", "mary", "steve"] },
+            { "class2": ["blair", "jordan", "larry"] },
+            { "class3": ["marv", "gord", "larry"] }
+        ]
+    }
+}
