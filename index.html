@@ -10,24 +10,24 @@
     <h1>Hello !</h1>
     <script type="text/javascript">
         /*var person = {
-                                            "Name": "Joe",
-                                            "Last Name": "Miller",
-                                            "Address": {
-                                                "Street": "Neverland 42"
-                                            },
-                                            "Hobbies": [
-                                                "doing stuff",
-                                                "dreaming"
-                                            ],
-                                            "Cars": [{
-                                                "make": "BMW",
-                                                "year": "2016"
-                                            }, {
-                                                "make": "Range",
-                                                "year": "2018"
-                                            }]
-                                        }
-                                        console.log(person);*/
+                                                                    "Name": "Joe",
+                                                                    "Last Name": "Miller",
+                                                                    "Address": {
+                                                                        "Street": "Neverland 42"
+                                                                    },
+                                                                    "Hobbies": [
+                                                                        "doing stuff",
+                                                                        "dreaming"
+                                                                    ],
+                                                                    "Cars": [{
+                                                                        "make": "BMW",
+                                                                        "year": "2016"
+                                                                    }, {
+                                                                        "make": "Range",
+                                                                        "year": "2018"
+                                                                    }]
+                                                                }
+                                                                console.log(person);*/
         var obj1 = {
             "friends": [{
                 "first": "Mike",
@@ -43,8 +43,11 @@
                 "last": "Average"
             }]
         };
+        var users = obj1.friends;
+        for (var i in users) {
 
-        console.log(obj1);
+            console.log(users[i]);
+        }
     </script>
 </body>
 
